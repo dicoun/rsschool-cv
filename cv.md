@@ -3,11 +3,14 @@
 
 ## **Contact information:**
 
-### **Phone:** +375 29 1286586
+### **Phone:** 
++375 29 1286586
 
-### **E-mail:** dicoun@gmail.com
+### **E-mail:** 
+dicoun@gmail.com
 
-### **Telegram:** @OlgaDicoun
+### **Telegram:** 
+@OlgaDicoun
 
 ### **Portfolio links:** 
 
