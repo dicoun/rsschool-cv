@@ -40,3 +40,30 @@ function likes(names) {
   }
 }
 ```
+##**Work experience:**
+*September 2017 – till now*
+ExtJS Front-end developer
+*Belarusian railway internal use systems development;
+*System interface development (ExtJs, JS);
+*Server side development (Zend-2, PHP);
+*Work with the database (PostgresSQL);
+*Use Git us Version Control System.
+##**Basic education:**
+*September 2003 - June 2008*
+Telecommunications, Telecommunication networks (Information security) 
+Telecommunication engineer
+Belarusian State University of Informatics and Radio-electronics (University)
+##**Additional training:**
+*May 2021 – August 2021*
+IT-Academy training courses
+*React and Angular web application development;
+*March 2019 – June 2019*
+IT-Academy training courses
+*JavaScript web-applications development;
+*August 2014 – June 2015*
+IT-Academy training courses
+*Front-end Developer;
+*PHP Developer ;
+*PHP Development Practice.
+##**Foreign language:**
+English: B1
