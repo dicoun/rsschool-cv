@@ -1,13 +1,23 @@
 #**Volha Dzikun**
+
 ##**Contact information:**
+
 ###**Phone:** +375 29 1286586
+
 ###**E-mail:** dicoun@gmail.com
+
 ###**Telegram:** @OlgaDicoun
+
 ###**Portfolio links:** 
+
 *[JavaScript examples](https://github.com/dicoun/Homeworks) 
 *[React examples](https://github.com/dicoun/FD3-Dicoun)
-##**Personal qualities:** Sociability, easy to learn, self-possession, responsibility, single-mindedness, good efficiency. Good communication skills and team spirit gained through my study and work experience.
+
+##**Personal qualities:** 
+Sociability, easy to learn, self-possession, responsibility, single-mindedness, good efficiency. Good communication skills and team spirit gained through my study and work experience.
+
 ##**Computer skills and competences:**
+
 *Programming languages and technologies: JS(ES5, ES6), ExtJS, React, Angular, TypeScript, Node.js, Zend-2, PHP, HTML/CSS;
 *DBMS: MySQL, PostgresSQL;
 *OS: Windows, Linux (Ubuntu);
@@ -15,7 +25,9 @@
 *Version Control System: Git, SVN;
 *Bug tracking system: Jira, Trello;
 *Processes understanding of Agile Scrum;
+
 ##**Code example:**
+
 *Implement the function which takes an array containing the names of people that like an item. It must return the display text as shown in the examples:*
 ![example](/images/task.example.png)
 *Note: For 4 or more names, the number in "and 2 others" simply increases.*
@@ -40,7 +52,9 @@ function likes(names) {
   }
 }
 ```
+
 ##**Work experience:**
+
 *September 2017 – till now*
 ExtJS Front-end developer
 *Belarusian railway internal use systems development;
@@ -48,12 +62,16 @@ ExtJS Front-end developer
 *Server side development (Zend-2, PHP);
 *Work with the database (PostgresSQL);
 *Use Git us Version Control System.
+
 ##**Basic education:**
+
 *September 2003 - June 2008*
 Telecommunications, Telecommunication networks (Information security) 
 Telecommunication engineer
 Belarusian State University of Informatics and Radio-electronics (University)
+
 ##**Additional training:**
+
 *May 2021 – August 2021*
 IT-Academy training courses
 *React and Angular web application development;
@@ -65,5 +83,7 @@ IT-Academy training courses
 *Front-end Developer;
 *PHP Developer ;
 *PHP Development Practice.
+
 ##**Foreign language:**
+
 English: B1
