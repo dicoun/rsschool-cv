@@ -35,3 +35,17 @@
     width: 100px; 
     height: auto;
 }
+
+.table {
+    display: inline-flex;
+    width: 100%;
+}
+
+.table-tr {
+    width: 70%;
+}
+
+.photo {
+    width: 280px;
+    height: auto;
+}
