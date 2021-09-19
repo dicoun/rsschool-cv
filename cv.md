@@ -17,7 +17,7 @@
 *Processes understanding of Agile Scrum;
 ##**Code example:**
 *Implement the function which takes an array containing the names of people that like an item. It must return the display text as shown in the examples:*
-(/images/task.example.png)
+![example](/images/task.example.png)
 *Note: For 4 or more names, the number in "and 2 others" simply increases.*
 ```javascript
 function likes(names) {
