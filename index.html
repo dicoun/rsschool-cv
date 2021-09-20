@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Volha Dzikun | rsschool-cv</title>
+</head>
+<body>
+    <div class="parentContainer">
+        <div class="childContainer">
+            <h1 id="volha-dzikun"><strong>Volha Dzikun</strong></h1>
+            <div class="table">
+                <div class="table-tr">
+                    <h2 id="contact-information"><strong>Contact information:</strong></h2>
+                    
+                    <h3 id="phone"><strong>Phone:</strong></h3>
+                    <p>+375 29 1286586</p>
+                    
+                    <h3 id="e-mail"><strong>E-mail:</strong></h3>
+                    <p>dicoun@gmail.com</p>
+                    
+                    <h3 id="telegram"><strong>Telegram:</strong></h3>
+                    <p>@OlgaDicoun</p>
+                    
+                    <h3 id="portfolio-links"><strong>Portfolio links:</strong></h3>
+                    
+                    <ul>
+                    <li><a href="https://github.com/dicoun/Homeworks">JavaScript examples</a></li>
+                    <li><a href="https://github.com/dicoun/FD3-Dicoun">React examples</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="images/my_photo.jpeg" alt="personal_photo" class="photo">
+                </div>
+            </div>
+            
+            <h2 id="personal-qualities"><strong>Personal qualities:</strong></h2>
+            <p>Sociability, easy to learn, self-possession, responsibility, single-mindedness, good efficiency. Good communication skills and team spirit gained through my study and work experience.</p>
+            
+            <h2 id="computer-skills-and-competences"><strong>Computer skills and competences:</strong></h2>
+            
+            <ul>
+            <li>Programming languages and technologies: JS(ES5, ES6), ExtJS, React, Angular, TypeScript, Node.js, Zend-2, PHP, HTML/CSS;</li>
+            <li>DBMS: MySQL, PostgresSQL;</li>
+            <li>OS: Windows, Linux (Ubuntu);</li>
+            <li>IDE: Visual Studio Code, JetBrains PhpStorm, dbForgeStudio for MySQL, pgAdmin;</li>
+            <li>Version Control System: Git, SVN;</li>
+            <li>Bug tracking system: Jira, Trello;</li>
+            <li>Processes understanding of Agile Scrum;</li>
+            </ul>
+            
+            <h2 id="code-example"><strong>Code example:</strong></h2>
+            
+            <p><em>Implement the function which takes an array containing the names of people that like an item. It must return the display text as shown in the examples:</em></p>
+            
+            <p><img src="images/task.example.png" alt="example" /></p>
+            
+            <p><em>Note: For 4 or more names, the number in “and 2 others” simply increases.</em></p>
+            <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">likes</span><span class="p">(</span><span class="nx">names</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">switch</span> <span class="p">(</span><span class="nx">names</span><span class="p">.</span><span class="nx">length</span><span class="p">){</span>
+                <span class="k">case</span> <span class="mi">0</span><span class="p">:</span>
+                    <span class="k">return</span> <span class="dl">'</span><span class="s1">no one likes this</span><span class="dl">'</span><span class="p">;</span>
+                <span class="k">break</span><span class="p">;</span>
+                <span class="k">case</span> <span class="mi">1</span><span class="p">:</span>
+                    <span class="k">return</span> <span class="nx">names</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="dl">'</span><span class="s1"> likes this</span><span class="dl">'</span><span class="p">;</span>
+                <span class="k">break</span><span class="p">;</span>
+                <span class="k">case</span> <span class="mi">2</span><span class="p">:</span> 
+                    <span class="k">return</span> <span class="nx">names</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="dl">'</span><span class="s1"> and </span><span class="dl">'</span> <span class="o">+</span> <span class="nx">names</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="dl">'</span><span class="s1"> like this</span><span class="dl">'</span><span class="p">;</span>
+                <span class="k">break</span><span class="p">;</span>
+                <span class="k">case</span> <span class="mi">3</span><span class="p">:</span>
+                    <span class="k">return</span> <span class="nx">names</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="dl">'</span><span class="s1">, </span><span class="dl">'</span> <span class="o">+</span> <span class="nx">names</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="dl">'</span><span class="s1"> and </span><span class="dl">'</span> <span class="o">+</span> <span class="nx">names</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">+</span><span class="dl">'</span><span class="s1"> like this</span><span class="dl">'</span><span class="p">;</span>
+                <span class="k">break</span><span class="p">;</span>
+                <span class="nl">default</span><span class="p">:</span>
+                    <span class="k">return</span> <span class="nx">names</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="dl">'</span><span class="s1">, </span><span class="dl">'</span> <span class="o">+</span> <span class="nx">names</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="dl">'</span><span class="s1"> and </span><span class="dl">'</span> <span class="o">+</span> <span class="p">(</span><span class="nx">names</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span> <span class="o">+</span><span class="dl">'</span><span class="s1"> others like this</span><span class="dl">'</span><span class="p">;</span>
+                <span class="k">break</span><span class="p">;</span>
+            <span class="p">}</span>
+            <span class="p">}</span>
+            </code></pre></div></div>
+            
+            <h2 id="work-experience"><strong>Work experience:</strong></h2>
+            
+            <p><em>September 2017 – till now</em></p>
+            
+            <p>ExtJS Front-end developer</p>
+            <ul>
+            <li>Belarusian railway internal use systems development;</li>
+            <li>System interface development (ExtJs, JS);</li>
+            <li>Server side development (Zend-2, PHP);</li>
+            <li>Work with the database (PostgresSQL);</li>
+            <li>Use Git us Version Control System.</li>
+            </ul>
+            
+            <h2 id="basic-education"><strong>Basic education:</strong></h2>
+            
+            <p><em>September 2003 - June 2008</em></p>
+            
+            <p>Telecommunications, Telecommunication networks (Information security) 
+            Telecommunication engineer
+            Belarusian State University of Informatics and Radio-electronics (University)</p>
+            
+            <h2 id="additional-training"><strong>Additional training:</strong></h2>
+            
+            <p><em>May 2021 – August 2021</em></p>
+            
+            <p>IT-Academy training courses</p>
+            <ul>
+            <li>React and Angular web application development;</li>
+            </ul>
+            
+            <p><em>March 2019 – June 2019</em></p>
+            
+            <p>IT-Academy training courses</p>
+            
+            <ul>
+            <li>JavaScript web-applications development;</li>
+            </ul>
+            
+            <p><em>August 2014 – June 2015</em></p>
+            
+            <p>IT-Academy training courses</p>
+            <ul>
+            <li>Front-end Developer;</li>
+            <li>PHP Developer ;</li>
+            <li>PHP Development Practice.</li>
+            </ul>
+            
+            <h2 id="foreign-language"><strong>Foreign language:</strong></h2>
+            
+            <p>English: B1</p>
+
+            <div class="footer">
+                <a href="https://github.com/dicoun/rsschool-cv" class="inner_1">My GitHub</a>
+                <a href="https://rs.school/js/" class="inner_2">JS Course</a>
+                <img src="images/rs_school_js.svg" alt="rs_school_js_img" class="image">
+                <span class="inner_3">&copy; All rights reserved, 2021</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
