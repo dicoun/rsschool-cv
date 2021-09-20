@@ -1,1 +1,1 @@
-https://dicoun.github.io/rsschool-cv/cv
+https://dicoun.github.io/rsschool-cv/
